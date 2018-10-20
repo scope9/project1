@@ -1,0 +1,203 @@
+body {
+    display: grid;
+    grid-template-rows: 46px 360px 46px 1fr;
+    min-height: 100vh;     
+    /* vertical height of vport        100% makes 100 percent of parent */
+}
+
+.btn {
+    background-color: #1955c3;
+    color: white;
+    /* border-radius: 80%; */
+    
+
+    /* display:block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid black; */
+
+
+    /* padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%; */
+    /* font-size: 30px; */
+    
+   
+}
+
+
+.top-btn {
+    /* margin-left: 20px; */
+    margin-left: 1200px;
+    position: absolute;
+}
+
+img {
+
+margin-left: 120px;
+
+
+}
+
+header {
+    background: white;
+    /* background: url(burgerking.jpg); */
+
+   
+}
+
+#cover {
+    /* background: palevioletred; */
+
+
+
+    /* background-image: url("Nuggets.jpg"); */
+    background-image: url("D3\ 117\ FOREST\ RD\ SCHNWALD\ TO\ EUTI\ 09_redimensionner_redimensionner.JPG");
+    background-size: cover;
+
+    /* max-width:100%; */
+    /* max-height:100%; */
+
+    /* object-fit: cover; */
+    
+    
+    
+    
+/*     
+    max-width: 100%;
+    height: auto; */
+    
+    
+   
+        /* max-height: 1px;
+        max-width: 1px; */
+
+        /* object-fit: contain; */
+        /* width: 100%;
+    height: 100%; */
+    
+}
+nav {
+    background: white;
+
+    /* background: url(EPA\ logo.gif);
+    background-repeat: no-repeat; */
+    /* background-size: cover; */
+   /* z-index: -1;
+   position: fixed; */
+   /* opacity: .7; */
+   
+  
+    
+    /* background: url(burgerking.jpg); */
+    
+}
+
+.logo {
+
+    z-index: 80;
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    margin-top: 250px;
+    border-radius: 50%;
+}
+
+
+main {
+    background: #dbeaef;
+}
+
+
+.container {
+    width: 1190px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.feed {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 15px;
+}
+
+
+
+.modal-container {
+    background: rgba(20, 23, 26, .7);
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.modal {
+    width: 600px;
+    margin: 40px auto;
+    height: 100px;
+    background: white;
+    border-radius: 7px;
+    padding: 0 15px 10px;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.center-feed {
+     background: white;
+   
+}
+
+.right-feed {
+    background: white;
+}
+
+
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.smallb {
+    font-weight: bold;
+}
+
+.section-btn {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.close-modal {
+    color: gray;
+    text-align: right;
+    justify-content: right;
+    align-items: right;
+
+}
+
+h2 {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.tweet-btn {
+    background-color: #1955c3;
+    color: white; 
+}
+
+.compose {
+    text-align: center;
+    
+}
