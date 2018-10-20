@@ -13,7 +13,7 @@ app.use(express.static("public")); // where to find the public files
 mongoose.connect(
 
 process.env.MONGODB_URI ||
-"mongodb://<dbuser>:<dbpassword>@ds125058.mlab.com:25058/heroku_vsljbvsk",
+"mongodb://user:dragon123@ds125058.mlab.com:25058/heroku_vsljbvsk",
 {
   useMongoClient: true
 }
