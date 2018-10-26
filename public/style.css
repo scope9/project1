@@ -41,6 +41,7 @@ img {
 margin-left: 120px;
 
 
+
 }
 
 header {
@@ -154,6 +155,10 @@ main {
 .center-feed {
      background: white;
    
+}
+.center {
+    background: white;
+    margin: 20px;
 }
 
 .right-feed {
