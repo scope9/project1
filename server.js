@@ -10,17 +10,8 @@ app.use(express.json());
 app.use(express.static("public")); // where to find the public files
 
 
-mongoose.connect(
-
-process.env.MONGODB_URI ||
-"mongodb://user:dragon123@ds125058.mlab.com:25058/heroku_vsljbvsk",
-{
-  useMongoClient: true
-}
-
-
-);
-// ('mongodb://localhost/twitter', { useNewUrlParser: true });
+mongoose.connect
+(process.env.MOGODB_URI || 'mongodb://localhost/twitter', { useNewUrlParser: true });
 
 
 require('./routes/api-routes')(app); // api put things on database
