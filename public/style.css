@@ -31,9 +31,12 @@ body {
 
 
 .top-btn {
-    /* margin-left: 20px; */
-    margin-left: 1200px;
-    position: absolute;
+    margin-right: 120px;
+    /* margin-left: 1200px; */
+    /* position: absolute; */
+    padding: 3px 7px 2px;
+    font-size: 12px;
+    float: right;
 }
 
 img {

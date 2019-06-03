@@ -19,10 +19,10 @@ $('.top-btn').on('click', showModal);
 
 
 
-const render = function(tweetText) {    
-    $('.center-feed').append(` <div class ="center">
-    &nbsp;   &nbsp;   <span class = "smallb">U.S EPA</span>  &nbsp; @EPA &nbsp; Oct 5
-    <p>${tweetText}</p></div>`) 
+const render = function(tweetObject) {    
+    $('.center-feed').append(` <div class ="center" data-id=${tweetObject._id}>
+    &nbsp;   &nbsp;   <span class = "smallb">U.S EPA</span>  &nbsp; @EPA &nbsp; 
+    <p>${tweetObject.content}</p></div>`) 
 
  }  
  
@@ -68,7 +68,7 @@ $.get('api/tweet')
         console.log(serverResponse);
 
 
-        render(serverResponse.content);
+        render(serverResponse);
     })
    }
 
